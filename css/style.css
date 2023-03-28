@@ -19,3 +19,31 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 45px;
 }
+.main-container{
+    background-color: white;
+    height: 900px;
+    width: 950px;
+    margin-left: 190px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.top-part-container{
+    border-bottom: 2px solid #f6f8f9;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    padding-left: 50px;
+}
+.add-task-button{
+    background-color: #47adf1;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.add-section-button{
+    background-color: white;
+    color: #dde1e3;
+    border: 1px solid #dde1e3;
+    border-radius: 5px;
+    padding: 10px;
+}
