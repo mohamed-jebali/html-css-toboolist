@@ -21,11 +21,12 @@ h1{
 }
 .main-container{
     background-color: white;
-    height: 900px;
+    height: 670px;
     width: 950px;
     margin-left: 190px;
     margin-top: 40px;
     border-radius: 10px;
+    line-height: 30px;
 }
 .top-part-container{
     border-bottom: 2px solid #f6f8f9;
@@ -103,6 +104,22 @@ h2{
 }
 .add-mobile-button{
     background-color: #f19d32;
+    color: white;
+    border-radius: 11px;
+    padding: 7px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.add-sales-button{
+    background-color: #b0c926;
+    color: white;
+    border-radius: 11px;
+    padding: 7px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.add-website-button{
+    background-color: #d762a0;
     color: white;
     border-radius: 11px;
     padding: 7px;
