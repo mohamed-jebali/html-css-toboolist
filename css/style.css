@@ -29,10 +29,11 @@ h1{
 }
 .top-part-container{
     border-bottom: 2px solid #f6f8f9;
-    font-size: 12px;
+    font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
     height: 50px;
     padding-left: 50px;
+    line-height: 50px;
 }
 .add-task-button{
     background-color: #47adf1;
@@ -46,4 +47,32 @@ h1{
     border: 1px solid #dde1e3;
     border-radius: 5px;
     padding: 10px;
+}
+.new-task{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+h2{
+
+    font-size: 20px;
+    color: #3f444d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.check-style{
+    color: green;
+    border-color: green;
+    border-radius: 50%;
+}
+.add-editorial-button{
+    background-color: #43a9e9;
+    color: white;
+    border-radius: 11px;
+    padding: 7px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.font-color-list{
+    font-size: 20px;
+    color: #3f444d;
+    font-family: Arial, Helvetica, sans-serif;
 }
