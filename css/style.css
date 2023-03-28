@@ -41,6 +41,7 @@ h1{
     color: white;
     border-radius: 5px;
     padding: 10px;
+    margin-right: 0.25em;
 }
 .add-section-button{
     background-color: white;
