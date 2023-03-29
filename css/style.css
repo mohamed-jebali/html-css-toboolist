@@ -40,7 +40,7 @@ h1{
     background-color: #47adf1;
     color: white;
     border-radius: 5px;
-    padding: 10px;
+    padding: 0.4rem 0.8rem;
     margin-right: 0.25em;
 }
 .add-section-button{
@@ -48,7 +48,7 @@ h1{
     color: #dde1e3;
     border: 1px solid #dde1e3;
     border-radius: 5px;
-    padding: 10px;
+    padding: 0.4rem 0.8rem;
 }
 .title-list{
     padding-top: 30px;
@@ -83,7 +83,7 @@ h2{
     background-color: #43a9e9;
     color: white;
     border-radius: 11px;
-    padding: 7px;
+    padding: 0.5rem 1rem;
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -91,7 +91,7 @@ h2{
     background-color: #9c72e4;
     color: white;
     border-radius: 11px;
-    padding: 7px;
+    padding: 0.5rem 1rem;
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -99,7 +99,7 @@ h2{
     background-color: #64c0a9;
     color: white;
     border-radius: 11px;
-    padding: 7px;
+    padding: 0.5rem 1rem;
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -107,7 +107,7 @@ h2{
     background-color: #f19d32;
     color: white;
     border-radius: 11px;
-    padding: 7px;
+    padding: 0.5rem 1rem;
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -115,7 +115,7 @@ h2{
     background-color: #b0c926;
     color: white;
     border-radius: 11px;
-    padding: 7px;
+    padding: 0.5rem 1rem;
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -123,7 +123,7 @@ h2{
     background-color: #d762a0;
     color: white;
     border-radius: 11px;
-    padding: 7px;
+    padding: 0.5rem 1rem;
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
