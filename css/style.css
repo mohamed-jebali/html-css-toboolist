@@ -1,192 +1,118 @@
+/* RESET */
 *{
     margin: 0;
-    box-sizing: border-box;
     padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 60px;
+    background-color: white;
+    padding: 0.5rem  1.3rem;
+}
+header>img{
+    height: 100%;
+    vertical-align: middle;
+    margin-right: 0.1rem;
+}
+h1{
+    font-weight: bold;
+    display: inline;
+    vertical-align: middle;
+}
+li{
+    padding-bottom: 0.7rem;
+}
+h2{
+    padding-bottom: 0.5rem;
 }
 body{
     background-color: #f6f8f9;
-}
-header{
-    background-color: white;
-    padding: 20px;
-}
-.logo-boolean{
-    height: 55px;
-    vertical-align: top;
-}
-h1{
-    display: inline;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 45px;
+
 }
-.main-container{
+main{
+    width: 70%;
+    margin: 30px auto;
     background-color: white;
-    height: 670px;
-    width: 950px;
-    margin-left: 190px;
-    margin-top: 40px;
-    border-radius: 10px;
-    line-height: 30px;
+    border-radius: 5px;
 }
-.top-part-container{
+section.upper-section{
     border-bottom: 2px solid #f6f8f9;
-    font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    height: 50px;
-    padding-left: 50px;
-    line-height: 50px;
+    padding: 0.5rem 0;
+    padding-left: 2rem;
 }
-.add-task-button{
+.add-button{
+    padding: 0.3rem 0.7rem;
+    border: none;
+    border-radius: 3px;
+    font-size: 0.5rem;
+}
+.blue-color{
     background-color: #47adf1;
     color: white;
-    border-radius: 5px;
-    padding: 0.4rem 0.8rem;
-    margin-right: 0.25em;
 }
-.add-section-button{
+.white-color{
     background-color: white;
-    color: #dde1e3;
-    border: 1px solid #dde1e3;
-    border-radius: 5px;
-    padding: 0.4rem 0.8rem;
+    color: grey;
+    border: 1px solid grey;
+    
 }
-.title-list{
-    padding-top: 30px;
-    padding-left: 50px;
-}
-h2{
+section.lower-section{
+    padding-left: 2rem;
+    padding-top: 1.4rem;
+    padding-bottom: 1.8rem;
 
-    font-size: 20px;
-    color: #3f444d;
-    font-family: Arial, Helvetica, sans-serif;
 }
-.check-style{
-    color: #63bfa8;
-    border: 2px solid;
+ul{
+    list-style-type: none;
+    font-size: 0.8rem;
+
+}
+.check-mark{
+    color: #21df21;
+    border: 1px solid #21df21;
     border-radius: 50%;
-    padding: 3px;
+    text-align: center;
+    margin-right: 3px;
+    font-size: 0.85rem;
     display: inline-block;
-    height: 22px;
-    line-height: 15px;
+    width: 18px;
+    height: 18px;
 }
-.cross-style{
-    color: #e74740;
-    border: 2px solid;
+.cross-mark{
+    color: red;
+    border: 1px solid red;
     border-radius: 50%;
-    padding: 3px;
+    text-align: center;
+    margin-right: 3px;
+    font-size: 0.85rem;
     display: inline-block;
-    height: 22px;
-    width: 22px;
-    line-height: 15px;
+    width: 18px;
+    height: 18px;
 }
-.add-editorial-button{
-    background-color: #43a9e9;
+.pills{
+    border-radius: 8px;
+    border: none;
+    padding: 5px 7px;
+    font-size: 0.45rem;
+}
+.violet-color{
+    background-color: #9b71e3;
     color: white;
-    border-radius: 11px;
-    padding: 0.5rem 1rem;
-    font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
 }
-.add-Goals-button{
-    background-color: #9c72e4;
+.aqua-color{
+    background-color: #64bfa8;
     color: white;
-    border-radius: 11px;
-    padding: 0.5rem 1rem;
-    font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
 }
-.add-recruiting-button{
-    background-color: #64c0a9;
-    color: white;
-    border-radius: 11px;
-    padding: 0.5rem 1rem;
-    font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.add-mobile-button{
+.orange-color{
     background-color: #f19d32;
     color: white;
-    border-radius: 11px;
-    padding: 0.5rem 1rem;
-    font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
 }
-.add-sales-button{
-    background-color: #b0c926;
-    color: white;
-    border-radius: 11px;
-    padding: 0.5rem 1rem;
-    font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.add-website-button{
+.magenta-color{
     background-color: #d762a0;
     color: white;
-    border-radius: 11px;
-    padding: 0.5rem 1rem;
-    font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
 }
-.font-color-list{
-    font-size: 20px;
-    color: #3f444d;
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
-    width: 180px;
-    margin-left: 5px;
-    margin-top: 12px;
-}
-.home-page{
-    font-size: 20px;
-    color: #3f444d;
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
-    width: 170px;
-    margin-left: 5px;
-    margin-top: 12px;
-}
-.large-box-text{
-    font-size: 20px;
-    color: #3f444d;
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
-    width: 325px;
-    margin-left: 5px;
-    margin-top: 12px;
-}
-.onboard-box-text{
-    font-size: 20px;
-    color: #3f444d;
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
-    width: 315px;
-    margin-left: 5px;
-    margin-top: 12px;
-}
-.review-box-text{
-    font-size: 20px;
-    color: #3f444d;
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
-    width: 225px;
-    margin-left: 5px;
-    margin-top: 12px;
-}
-.interview-box-text{
-    font-size: 20px;
-    color: #3f444d;
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
-    width: 155px;
-    margin-left: 5px;
-    margin-top: 12px;
-}
-.mobile-box-text{
-    font-size: 20px;
-    color: #3f444d;
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
-    width: 168px;
-    margin-left: 5px;
-    margin-top: 12px;
+.lightgreen-color{
+    background-color: #b0c926;
+    color: white;
 }

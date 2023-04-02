@@ -4,89 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>html-css-toboolist</title>
+    <title>Toboolist</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-
     <header>
-        <img class=logo-boolean src="./img/Logo.png" alt="logoboolean">
+        <img src="./img/Logo.png" alt="Logo-toboolist">
         <h1>
             Toboolist
         </h1>
     </header>
-
-    <main class="main-container">
-
-        <section class="top-part-container">
-            <span class="add-task-button">Add Task</span>
-            <span class="add-section-button">Add Section</span>
+    <main>
+        <section class="upper-section">
+            <button class="add-button blue-color">
+                Add Task
+            </button>
+            <button class="add-button white-color">
+                Add Section
+            </button>
         </section>
 
-        <section class="title-list">
-            <h2>
-                &blacktriangledown; New Task
-            </h2>
-            <div>
-                <p class="check-style">&check;</p>
-                <p class="font-color-list">Quartely Newsletter</p>
-                <span class="add-editorial-button">Editorial</span>
-            </div>
-        </section>
-        
-        <section class="title-list">
-            <h2>
-                &blacktriangledown; Today
-            </h2>
-
-            <div>
-                <p class="check-style">&check;</p>
-                <p class="font-color-list">Recruiting blog post</p>
-                <span class="add-editorial-button">Editorial</span>
-            </div>
-
-            <div>
-                <p class="check-style">&check;</p>
-                <p class="mobile-box-text">Mobile app launch</p>
-                <span class="add-Goals-button">Q1 Goals</span>
-            </div>
-
-            <div>
-                <p class="cross-style">&cross;</p>
-                <p class="interview-box-text">Interview John H.</p>
-                <span class="add-recruiting-button">Recruiting</span>
-            </div>
-
-            <div>
-                <p class="check-style">&check;</p>
-                <p class="large-box-text">Summit update to mobile storefronts</p>
-                <span class="add-mobile-button">Mobile</span>
-            </div>
-        </section>
-
-        <section class="title-list">
-            <h2>
-                &blacktriangledown; Upcoming
-            </h2>
-            <div>
-                <p class="cross-style">&cross;</p>
-                <p class="large-box-text">Schedule meeting with Alex</p>
-            </div>
-            <div>
-                <p class="check-style">&check;</p>
-                <p class="home-page">Homepage refresh</p>
-                <span class="add-website-button">Website</span>
-            </div>
-            <div>
-                <p class="check-style">&check;</p>
-                <p class="onboard-box-text">Onboard new Sales team members</p>
-                <span class="add-sales-button">Sales</span>
-            </div>
-            <div>
-                <p class="check-style">&check;</p>
-                <p class="review-box-text">Review editorial calendar</p>
-                <span class="add-editorial-button">Editorial</span>
-            </div>
+        <section class="lower-section">
+                <ul class="title-task">
+                <h2>
+                    &blacktriangledown; New Task
+                </h2>
+                <li>
+                    <span class="check-mark">&check;</span> 
+                    Quarterly Newsletter
+                    <button class="pills blue-color">Editorial</button>
+                </li>
+                </ul>
+                <ul class="title-task">
+                    <h2>
+                        &blacktriangledown; Today
+                    </h2>
+                    <li>
+                        <span class="check-mark">&check;</span> 
+                        Recruiting blog post
+                        <button class="pills blue-color">Editorial</button>
+                    </li>
+                    <li>
+                        <span class="check-mark">&check;</span> 
+                        Mobile app launch
+                        <button class="pills violet-color">Q1 Goals</button>
+                    </li>
+                    <li>
+                        <span class="cross-mark">&cross;</span> 
+                        Interview John H.
+                        <button class="pills aqua-color">Recruiting</button>
+                    </li>
+                    <li>
+                        <span class="check-mark">&check;</span>  
+                        Summit update to mobile storefronts
+                        <button class="pills orange-color">Mobile</button>
+                    </li>
+                    </ul>
+                    <ul class="title-task">
+                        <h2>
+                            &blacktriangledown; Upcoming
+                        </h2>
+                        <li>
+                            <span class="cross-mark">&cross;</span>  
+                            Schedule meeting with Alex
+                        </li>
+                        <li>
+                            <span class="check-mark">&check;</span> 
+                            Homepage refresh
+                            <button class="pills magenta-color">Website</button>
+                        </li>
+                        <li>
+                            <span class="check-mark">&check;</span> 
+                            Onboard new Sales team members
+                            <button class="pills lightgre-color">Sales</button>
+                        </li>
+                        <li>
+                            <span class="check-mark">&check;</span>  
+                            Review editorial calendar
+                            <button class="pills blue-color">Editorial</button>
+                        </li>
+                        </ul>
         </section>
     </main>
 </body>
